@@ -1,0 +1,234 @@
+2020-11-29 13:19:50  INFO: HikariPool-1 - Starting...
+2020-11-29 13:19:51 ERROR: HikariPool-1 - Exception during pool initialization. - Connection refused (Connection refused) - ConnectException (... < DataManager:139 < *:89 < Context:299 < Main:137 < ...)
+2020-11-29 13:19:51 ERROR: Main method error - Connection refused (Connection refused) - ConnectException (... < DataManager:139 < *:89 < Context:299 < Main:137 < ...)
+2020-11-29 13:21:59  INFO: HikariPool-1 - Starting...
+2020-11-29 13:22:03 ERROR: HikariPool-1 - Exception during pool initialization. - Error while creating file "/home/user" [90062-200] - JdbcSQLNonTransientException (... < DataManager:139 < *:89 < Context:299 < Main:137 < ...)
+2020-11-29 13:22:03 ERROR: Main method error - Error while creating file "/home/user" [90062-200] - JdbcSQLNonTransientException (... < DataManager:139 < *:89 < Context:299 < Main:137 < ...)
+2020-11-29 13:22:17  INFO: HikariPool-1 - Starting...
+2020-11-29 13:22:18  INFO: HikariPool-1 - Start completed.
+2020-11-29 13:22:19  INFO: Clearing database change log checksums
+2020-11-29 13:22:20  INFO: Successfully acquired change log lock
+2020-11-29 13:22:20  INFO: Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2020-11-29 13:22:20  INFO: Successfully released change log lock
+2020-11-29 13:22:20  INFO: Successfully acquired change log lock
+2020-11-29 13:22:20  INFO: Can not use class liquibase.parser.core.json.JsonChangeLogParser as a Liquibase service because org.yaml.snakeyaml.constructor.BaseConstructor is not in the classpath
+2020-11-29 13:22:20  INFO: Can not use class liquibase.parser.core.yaml.YamlChangeLogParser as a Liquibase service because org.yaml.snakeyaml.constructor.BaseConstructor is not in the classpath
+2020-11-29 13:22:22  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2020-11-29 13:22:23  INFO: Table tc_attributes created
+2020-11-29 13:22:23  INFO: Table tc_calendars created
+2020-11-29 13:22:23  INFO: Table tc_commands created
+2020-11-29 13:22:23  INFO: Table tc_device_attribute created
+2020-11-29 13:22:23  INFO: Table tc_device_command created
+2020-11-29 13:22:23  INFO: Table tc_device_driver created
+2020-11-29 13:22:23  INFO: Table tc_device_geofence created
+2020-11-29 13:22:23  INFO: Table tc_device_maintenance created
+2020-11-29 13:22:23  INFO: Table tc_device_notification created
+2020-11-29 13:22:23  INFO: Table tc_devices created
+2020-11-29 13:22:23  INFO: Table tc_drivers created
+2020-11-29 13:22:23  INFO: Table tc_events created
+2020-11-29 13:22:23  INFO: Table tc_geofences created
+2020-11-29 13:22:23  INFO: Table tc_group_attribute created
+2020-11-29 13:22:23  INFO: Table tc_group_command created
+2020-11-29 13:22:23  INFO: Table tc_group_driver created
+2020-11-29 13:22:23  INFO: Table tc_group_geofence created
+2020-11-29 13:22:23  INFO: Table tc_group_maintenance created
+2020-11-29 13:22:23  INFO: Table tc_group_notification created
+2020-11-29 13:22:23  INFO: Table tc_groups created
+2020-11-29 13:22:23  INFO: Table tc_maintenances created
+2020-11-29 13:22:23  INFO: Table tc_notifications created
+2020-11-29 13:22:23  INFO: Table tc_positions created
+2020-11-29 13:22:23  INFO: Table tc_servers created
+2020-11-29 13:22:23  INFO: Table tc_statistics created
+2020-11-29 13:22:23  INFO: Table tc_user_attribute created
+2020-11-29 13:22:23  INFO: Table tc_user_calendar created
+2020-11-29 13:22:23  INFO: Table tc_user_command created
+2020-11-29 13:22:23  INFO: Table tc_user_device created
+2020-11-29 13:22:23  INFO: Table tc_user_driver created
+2020-11-29 13:22:23  INFO: Table tc_user_geofence created
+2020-11-29 13:22:23  INFO: Table tc_user_group created
+2020-11-29 13:22:23  INFO: Table tc_user_maintenance created
+2020-11-29 13:22:23  INFO: Table tc_user_notification created
+2020-11-29 13:22:23  INFO: Table tc_user_user created
+2020-11-29 13:22:23  INFO: Table tc_users created
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_device_command (commandid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_device_command (deviceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_device_driver (deviceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_device_driver (driverid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_device_geofence (deviceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_device_geofence (geofenceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_device_maintenance (deviceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_device_maintenance (maintenanceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_device_notification (deviceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_device_notification (notificationid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_devices (groupid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_events (deviceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_geofences (calendarid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_group_attribute (attributeid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_group_attribute (groupid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_group_command (commandid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_group_command (groupid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_group_driver (driverid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_group_driver (groupid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_group_geofence (geofenceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_group_geofence (groupid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_group_maintenance (groupid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_group_maintenance (maintenanceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_group_notification (groupid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_group_notification (notificationid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_notifications (calendarid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_positions (deviceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_attribute (attributeid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_attribute (userid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_calendar (calendarid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_calendar (userid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_command (commandid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_command (userid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_device_attribute (attributeid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_device_attribute (deviceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_device (deviceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_device (userid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_driver (driverid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_driver (userid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_geofence (geofenceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_geofence (userid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_group (groupid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_group (userid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_maintenance (maintenanceid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_maintenance (userid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_notification (notificationid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_notification (userid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_user (userid)
+2020-11-29 13:22:23  INFO: New row inserted into tc_servers
+2020-11-29 13:22:23  INFO: New row inserted into tc_users
+2020-11-29 13:22:23  INFO: ChangeSet changelog-4.0-clean::changelog-4.0-clean::author ran successfully in 334ms
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_groups (groupid)
+2020-11-29 13:22:23  INFO: Foreign key constraint added to tc_user_user (manageduserid)
+2020-11-29 13:22:23  INFO: ChangeSet changelog-4.0-clean::changelog-4.0-clean-common::author ran successfully in 8ms
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.3::changelog-3.3::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.5::changelog-3.5::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.6::changelog-3.6::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.7::changelog-3.7::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.7::changelog-3.7-notmssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.8::changelog-3.8::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.9::changelog-3.9::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.10::changelog-3.10::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.10::changelog-3.10-notmssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.10::changelog-3.10-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.10::changelog-3.7-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.11::changelog-3.11::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.12::changelog-3.12::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.12::changelog-3.12-notmssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.12::changelog-3.12-pgsql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.14::changelog-3.14::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.15::changelog-3.15::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.16::changelog-3.16::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.17::changelog-3.3-admin::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-3.17::changelog-3.17::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-pre::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-common::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-pg::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-renaming::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-11-29 13:22:23  INFO: Marking ChangeSet: changelog-4.1::changelog-4.1-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : DBMS Precondition failed: expected mssql, got h2
+
+2020-11-29 13:22:23  INFO: Index user_device_user_id created
+2020-11-29 13:22:23  INFO: Index position_deviceid_fixtime created
+2020-11-29 13:22:23  INFO: ChangeSet changelog-4.7::changelog-4.7::author ran successfully in 193ms
+2020-11-29 13:22:23  INFO: Index event_deviceid_servertime created
+2020-11-29 13:22:23  INFO: ChangeSet changelog-4.9::changelog-4.9::author ran successfully in 2ms
+2020-11-29 13:22:23  INFO: Columns protocols(VARCHAR(4096)) added to tc_statistics
+2020-11-29 13:22:23  INFO: ChangeSet changelog-4.10::changelog-4.10::author ran successfully in 18ms
+2020-11-29 13:22:23  INFO: Successfully released change log lock
+2020-11-29 13:22:24  INFO: Logging initialized @7687ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-11-29 13:22:26  INFO: Operating system name: Linux version: 5.9.8-100.fc32.x86_64 architecture: amd64
+2020-11-29 13:22:26  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Red Hat, Inc. version: 25.272-b10
+2020-11-29 13:22:26  INFO: Memory limit heap: 491mb non-heap: 0mb
+2020-11-29 13:22:26  INFO: Character encoding: UTF-8 charset: UTF-8
+2020-11-29 13:22:26  INFO: Version: 4.11-SNAPSHOT
+2020-11-29 13:22:26  INFO: Starting server...
+2020-11-29 13:22:27  INFO: jetty-9.4.33.v20201020; built: 2020-10-20T23:39:24.803Z; git: 1be68755656cef678b79a2ef1c2ebbca99e25420; jvm 1.8.0_272-b10
+2020-11-29 13:22:27  INFO: Started o.t.w.@747835f5{/,null,AVAILABLE}
+2020-11-29 13:22:27  INFO: DefaultSessionIdManager workerName=node0
+2020-11-29 13:22:27  INFO: No SessionScavenger set, using defaults
+2020-11-29 13:22:27  INFO: node0 Scavenging every 600000ms
+2020-11-29 13:22:29  INFO: Started o.e.j.s.ServletContextHandler@6ed51944{/,null,AVAILABLE}
+2020-11-29 13:22:29  INFO: Started ServerConnector@24b4d544{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2020-11-29 13:22:29  INFO: Started @13052ms
+2020-11-29 13:23:44  INFO: Shutting down server...
+2020-11-29 13:25:52  INFO: HikariPool-1 - Starting...
+2020-11-29 13:25:53  INFO: HikariPool-1 - Start completed.
+2020-11-29 13:25:54  INFO: Clearing database change log checksums
+2020-11-29 13:25:55  INFO: Successfully acquired change log lock
+2020-11-29 13:25:55  INFO: Successfully released change log lock
+2020-11-29 13:25:55  INFO: Successfully acquired change log lock
+2020-11-29 13:25:55  INFO: Can not use class liquibase.parser.core.yaml.YamlChangeLogParser as a Liquibase service because org.yaml.snakeyaml.constructor.BaseConstructor is not in the classpath
+2020-11-29 13:25:55  INFO: Can not use class liquibase.parser.core.json.JsonChangeLogParser as a Liquibase service because org.yaml.snakeyaml.constructor.BaseConstructor is not in the classpath
+2020-11-29 13:25:57  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2020-11-29 13:25:57  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2020-11-29 13:25:57  INFO: Successfully released change log lock
+2020-11-29 13:25:57  INFO: Logging initialized @5871ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-11-29 13:26:00  INFO: Operating system name: Linux version: 5.9.8-100.fc32.x86_64 architecture: amd64
+2020-11-29 13:26:00  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Red Hat, Inc. version: 25.272-b10
+2020-11-29 13:26:00  INFO: Memory limit heap: 491mb non-heap: 0mb
+2020-11-29 13:26:00  INFO: Character encoding: UTF-8 charset: UTF-8
+2020-11-29 13:26:00  INFO: Version: 4.11-SNAPSHOT
+2020-11-29 13:26:00  INFO: Starting server...
+2020-11-29 13:26:01  INFO: jetty-9.4.33.v20201020; built: 2020-10-20T23:39:24.803Z; git: 1be68755656cef678b79a2ef1c2ebbca99e25420; jvm 1.8.0_272-b10
+2020-11-29 13:26:01  INFO: Started o.t.w.@62b57479{/,null,AVAILABLE}
+2020-11-29 13:26:01  INFO: DefaultSessionIdManager workerName=node0
+2020-11-29 13:26:01  INFO: No SessionScavenger set, using defaults
+2020-11-29 13:26:01  INFO: node0 Scavenging every 660000ms
+2020-11-29 13:26:04  INFO: Started o.e.j.s.ServletContextHandler@44084713{/,null,AVAILABLE}
+2020-11-29 13:26:04  INFO: Started ServerConnector@40f8f5a8{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2020-11-29 13:26:04  INFO: Started @12687ms
