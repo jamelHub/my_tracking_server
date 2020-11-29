@@ -232,3 +232,34 @@
 2020-11-29 13:26:04  INFO: Started o.e.j.s.ServletContextHandler@44084713{/,null,AVAILABLE}
 2020-11-29 13:26:04  INFO: Started ServerConnector@40f8f5a8{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
 2020-11-29 13:26:04  INFO: Started @12687ms
+2020-11-29 15:13:08  INFO: HikariPool-1 - Starting...
+2020-11-29 15:13:09 ERROR: HikariPool-1 - Exception during pool initialization. - Connection refused (Connection refused) - ConnectException (... < DataManager:139 < *:89 < Context:299 < Main:137 < ...)
+2020-11-29 15:13:09 ERROR: Main method error - Connection refused (Connection refused) - ConnectException (... < DataManager:139 < *:89 < Context:299 < Main:137 < ...)
+2020-11-29 15:14:37  INFO: HikariPool-1 - Starting...
+2020-11-29 15:14:38  INFO: HikariPool-1 - Start completed.
+2020-11-29 15:14:39  INFO: Clearing database change log checksums
+2020-11-29 15:14:40  INFO: Successfully acquired change log lock
+2020-11-29 15:14:40  INFO: Successfully released change log lock
+2020-11-29 15:14:40  INFO: Successfully acquired change log lock
+2020-11-29 15:14:40  INFO: Can not use class liquibase.parser.core.yaml.YamlChangeLogParser as a Liquibase service because org.yaml.snakeyaml.constructor.BaseConstructor is not in the classpath
+2020-11-29 15:14:40  INFO: Can not use class liquibase.parser.core.json.JsonChangeLogParser as a Liquibase service because org.yaml.snakeyaml.constructor.BaseConstructor is not in the classpath
+2020-11-29 15:14:43  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2020-11-29 15:14:43  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2020-11-29 15:14:43  INFO: Successfully released change log lock
+2020-11-29 15:14:44  INFO: Logging initialized @7695ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-11-29 15:14:48  INFO: Operating system name: Linux version: 5.9.8-100.fc32.x86_64 architecture: amd64
+2020-11-29 15:14:48  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Red Hat, Inc. version: 25.272-b10
+2020-11-29 15:14:48  INFO: Memory limit heap: 491mb non-heap: 0mb
+2020-11-29 15:14:48  INFO: Character encoding: UTF-8 charset: UTF-8
+2020-11-29 15:14:48  INFO: Version: 4.11-SNAPSHOT
+2020-11-29 15:14:48  INFO: Starting server...
+2020-11-29 15:14:49  INFO: jetty-9.4.33.v20201020; built: 2020-10-20T23:39:24.803Z; git: 1be68755656cef678b79a2ef1c2ebbca99e25420; jvm 1.8.0_272-b10
+2020-11-29 15:14:50  INFO: Started o.t.w.@ea04cab{/,null,AVAILABLE}
+2020-11-29 15:14:50  INFO: DefaultSessionIdManager workerName=node0
+2020-11-29 15:14:50  INFO: No SessionScavenger set, using defaults
+2020-11-29 15:14:50  INFO: node0 Scavenging every 600000ms
+2020-11-29 15:14:53  INFO: Started o.e.j.s.ServletContextHandler@333d44f6{/,null,AVAILABLE}
+2020-11-29 15:14:53  INFO: Started ServerConnector@40f8f5a8{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2020-11-29 15:14:53  INFO: Started @16981ms
+2020-11-29 15:17:11  INFO: user: 1, report: events, from: 2020-11-20 01:04, to: 2020-11-26 00:59, devices: [2], groups: []
+2020-11-29 15:17:56  INFO: Shutting down server...
