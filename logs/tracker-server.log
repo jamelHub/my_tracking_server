@@ -263,3 +263,61 @@
 2020-11-29 15:14:53  INFO: Started @16981ms
 2020-11-29 15:17:11  INFO: user: 1, report: events, from: 2020-11-20 01:04, to: 2020-11-26 00:59, devices: [2], groups: []
 2020-11-29 15:17:56  INFO: Shutting down server...
+2020-11-29 15:25:52  INFO: HikariPool-1 - Starting...
+2020-11-29 15:25:54 ERROR: HikariPool-1 - Exception during pool initialization. - Connection refused (Connection refused) - ConnectException (... < DataManager:139 < *:89 < Context:299 < Main:137 < ...)
+2020-11-29 15:25:54 ERROR: Main method error - Connection refused (Connection refused) - ConnectException (... < DataManager:139 < *:89 < Context:299 < Main:137 < ...)
+2020-12-01 11:41:10  INFO: HikariPool-1 - Starting...
+2020-12-01 11:41:12  INFO: HikariPool-1 - Start completed.
+2020-12-01 11:41:17  INFO: Clearing database change log checksums
+2020-12-01 11:41:18  INFO: Successfully acquired change log lock
+2020-12-01 11:41:18  INFO: Successfully released change log lock
+2020-12-01 11:41:18  INFO: Successfully acquired change log lock
+2020-12-01 11:41:18  INFO: Can not use class liquibase.parser.core.yaml.YamlChangeLogParser as a Liquibase service because org.yaml.snakeyaml.constructor.BaseConstructor is not in the classpath
+2020-12-01 11:41:18  INFO: Can not use class liquibase.parser.core.json.JsonChangeLogParser as a Liquibase service because org.yaml.snakeyaml.constructor.BaseConstructor is not in the classpath
+2020-12-01 11:41:21  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2020-12-01 11:41:21  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2020-12-01 11:41:21  INFO: Successfully released change log lock
+2020-12-01 11:41:22  INFO: Logging initialized @15281ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-12-01 11:41:25  INFO: Operating system name: Linux version: 5.9.8-100.fc32.x86_64 architecture: amd64
+2020-12-01 11:41:25  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Red Hat, Inc. version: 25.272-b10
+2020-12-01 11:41:25  INFO: Memory limit heap: 491mb non-heap: 0mb
+2020-12-01 11:41:25  INFO: Character encoding: UTF-8 charset: UTF-8
+2020-12-01 11:41:25  INFO: Version: 4.11-SNAPSHOT
+2020-12-01 11:41:25  INFO: Starting server...
+2020-12-01 11:41:26  INFO: jetty-9.4.33.v20201020; built: 2020-10-20T23:39:24.803Z; git: 1be68755656cef678b79a2ef1c2ebbca99e25420; jvm 1.8.0_272-b10
+2020-12-01 11:41:27  INFO: Started o.t.w.@62b57479{/,null,AVAILABLE}
+2020-12-01 11:41:27  INFO: DefaultSessionIdManager workerName=node0
+2020-12-01 11:41:27  INFO: No SessionScavenger set, using defaults
+2020-12-01 11:41:27  INFO: node0 Scavenging every 600000ms
+2020-12-01 11:41:30  INFO: Started o.e.j.s.ServletContextHandler@6d8b7ea9{/,null,AVAILABLE}
+2020-12-01 11:41:30  INFO: Started ServerConnector@40f8f5a8{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2020-12-01 11:41:30  INFO: Started @23573ms
+2020-12-01 11:51:24  INFO: Shutting down server...
+2020-12-01 12:47:02  INFO: HikariPool-1 - Starting...
+2020-12-01 12:47:02  INFO: HikariPool-1 - Start completed.
+2020-12-01 12:47:03  INFO: Clearing database change log checksums
+2020-12-01 12:47:04  INFO: Successfully acquired change log lock
+2020-12-01 12:47:04  INFO: Successfully released change log lock
+2020-12-01 12:47:04  INFO: Successfully acquired change log lock
+2020-12-01 12:47:04  INFO: Can not use class liquibase.parser.core.yaml.YamlChangeLogParser as a Liquibase service because org.yaml.snakeyaml.constructor.BaseConstructor is not in the classpath
+2020-12-01 12:47:04  INFO: Can not use class liquibase.parser.core.json.JsonChangeLogParser as a Liquibase service because org.yaml.snakeyaml.constructor.BaseConstructor is not in the classpath
+2020-12-01 12:47:06  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2020-12-01 12:47:06  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2020-12-01 12:47:06  INFO: Successfully released change log lock
+2020-12-01 12:47:07  INFO: Logging initialized @7785ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-12-01 12:47:16  INFO: Operating system name: Linux version: 5.9.8-100.fc32.x86_64 architecture: amd64
+2020-12-01 12:47:16  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Red Hat, Inc. version: 25.272-b10
+2020-12-01 12:47:16  INFO: Memory limit heap: 491mb non-heap: 0mb
+2020-12-01 12:47:16  INFO: Character encoding: UTF-8 charset: UTF-8
+2020-12-01 12:47:16  INFO: Version: 4.11-SNAPSHOT
+2020-12-01 12:47:16  INFO: Starting server...
+2020-12-01 12:47:17  INFO: jetty-9.4.33.v20201020; built: 2020-10-20T23:39:24.803Z; git: 1be68755656cef678b79a2ef1c2ebbca99e25420; jvm 1.8.0_272-b10
+2020-12-01 12:47:17  INFO: Started o.t.w.@62b57479{/,null,AVAILABLE}
+2020-12-01 12:47:17  INFO: DefaultSessionIdManager workerName=node0
+2020-12-01 12:47:17  INFO: No SessionScavenger set, using defaults
+2020-12-01 12:47:17  INFO: node0 Scavenging every 660000ms
+2020-12-01 12:47:21  INFO: Started o.e.j.s.ServletContextHandler@6d8b7ea9{/,null,AVAILABLE}
+2020-12-01 12:47:21  INFO: Started ServerConnector@40f8f5a8{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2020-12-01 12:47:21  INFO: Started @21780ms
+2020-12-01 12:48:52  INFO: updatee for event
+2020-12-01 12:49:55  INFO: Shutting down server...
