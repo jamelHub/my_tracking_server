@@ -13,10 +13,11 @@
     remove "config.default" parameter from this file unless you know what you are doing.
     For list of available parameters see following page: https://www.traccar.org/configuration-file/
     -->
-<entry key='database.driver'>org.postgresql.Driver</entry>
-<entry key='database.url'>jdbc:postgresql://127.0.0.1:5432/traccar</entry>
-<entry key='database.user'>emkatech</entry>
-<entry key='database.password'>emkatech_tracking</entry>
+          <entry key='database.driver'>org.postgresql.Driver</entry>
+            <entry key='database.url'>jdbc:postgresql://traccar-db:5432/traccar</entry>
+            <entry key='database.user'>traccar</entry>
+            <entry key='database.password'>traccar</entry>
+
 
 
 <!--
