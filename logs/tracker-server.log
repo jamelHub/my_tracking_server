@@ -532,3 +532,32 @@
 2020-12-24 14:56:27  INFO: user: 1, action: create, object: device, id: 1
 2020-12-24 14:56:27  INFO: user: 1, action: link, owner: user, id: 1, property: device, id: 1
 2020-12-24 16:33:07  INFO: Shutting down server...
+2020-12-24 20:29:37  INFO: HikariPool-1 - Starting...
+2020-12-24 20:29:38  INFO: HikariPool-1 - Start completed.
+2020-12-24 20:29:38  INFO: Clearing database change log checksums
+2020-12-24 20:29:39  INFO: Successfully acquired change log lock
+2020-12-24 20:29:39  INFO: Successfully released change log lock
+2020-12-24 20:29:39  INFO: Successfully acquired change log lock
+2020-12-24 20:29:39  INFO: Can not use class liquibase.parser.core.json.JsonChangeLogParser as a Liquibase service because org.yaml.snakeyaml.constructor.BaseConstructor is not in the classpath
+2020-12-24 20:29:39  INFO: Can not use class liquibase.parser.core.yaml.YamlChangeLogParser as a Liquibase service because org.yaml.snakeyaml.constructor.BaseConstructor is not in the classpath
+2020-12-24 20:29:39  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2020-12-24 20:29:39  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2020-12-24 20:29:39  INFO: Successfully released change log lock
+2020-12-24 20:29:39  INFO: Logging initialized @3023ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-12-24 20:29:40  INFO: Operating system name: Linux version: 5.4.0-42-generic architecture: amd64
+2020-12-24 20:29:40  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Ubuntu version: 11.0.9.1+1-Ubuntu-0ubuntu1.20.04
+2020-12-24 20:29:40  INFO: Memory limit heap: 512mb non-heap: 0mb
+2020-12-24 20:29:40  INFO: Character encoding: UTF-8 charset: UTF-8
+2020-12-24 20:29:40  INFO: Version: 4.11-SNAPSHOT
+2020-12-24 20:29:40  INFO: Starting server...
+2020-12-24 20:29:40  INFO: jetty-9.4.33.v20201020; built: 2020-10-20T23:39:24.803Z; git: 1be68755656cef678b79a2ef1c2ebbca99e25420; jvm 11.0.9.1+1-Ubuntu-0ubuntu1.20.04
+2020-12-24 20:29:40  INFO: Started o.t.w.@31d4b3e8{/,null,AVAILABLE}
+2020-12-24 20:29:40  INFO: DefaultSessionIdManager workerName=node0
+2020-12-24 20:29:40  INFO: No SessionScavenger set, using defaults
+2020-12-24 20:29:40  INFO: node0 Scavenging every 600000ms
+2020-12-24 20:29:41  INFO: Started o.e.j.s.ServletContextHandler@4e343265{/,null,AVAILABLE}
+2020-12-24 20:29:41  INFO: Started ServerConnector@51ab1ee3{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2020-12-24 20:29:41  INFO: Started @4450ms
+2020-12-24 20:31:51  INFO: user: 1, action: create, object: maintenance, id: 2
+2020-12-24 20:31:51  INFO: user: 1, action: link, owner: user, id: 1, property: maintenance, id: 2
+2020-12-24 20:40:12  INFO: Shutting down server...
