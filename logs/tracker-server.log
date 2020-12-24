@@ -531,3 +531,4 @@
 2020-12-24 14:55:04  INFO: user: 1, action: link, owner: user, id: 1, property: notification, id: 1
 2020-12-24 14:56:27  INFO: user: 1, action: create, object: device, id: 1
 2020-12-24 14:56:27  INFO: user: 1, action: link, owner: user, id: 1, property: device, id: 1
+2020-12-24 16:33:07  INFO: Shutting down server...
