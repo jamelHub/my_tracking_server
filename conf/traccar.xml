@@ -12,20 +12,20 @@
     with upgrading to a new version. Parameters in the main config file override values in the default file. Do not
     remove "config.default" parameter from this file unless you know what you are doing.
     For list of available parameters see following page: https://www.traccar.org/configuration-file/
-    
+-->    
           <entry key='database.driver'>org.postgresql.Driver</entry>
             <entry key='database.url'>jdbc:postgresql://traccar-db:5432/traccar</entry>
             <entry key='database.user'>traccar</entry>
             <entry key='database.password'>traccar</entry>
 
--->
+<!--
 
 
 <entry key='database.driver'>org.h2.Driver</entry>
 <entry key='database.url'>jdbc:h2:/home/jamel/Documents/traccar/target/database</entry>
 <entry key='database.user'>sa</entry>
 <entry key='database.password'></entry>
-
+-->
 
 <entry key='report.trip.minimalTripDuration'>165</entry>
 <entry key='report.trip.minimalTripDistance'>280</entry>
