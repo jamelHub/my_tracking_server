@@ -321,3 +321,213 @@
 2020-12-01 12:47:21  INFO: Started @21780ms
 2020-12-01 12:48:52  INFO: updatee for event
 2020-12-01 12:49:55  INFO: Shutting down server...
+2020-12-24 14:50:29  INFO: HikariPool-1 - Starting...
+2020-12-24 14:50:33 ERROR: HikariPool-1 - Exception during pool initialization. - traccar-db - UnknownHostException (... < DataManager:139 < *:89 < Context:298 < Main:137 < ...)
+2020-12-24 14:50:33 ERROR: Main method error - traccar-db - UnknownHostException (... < DataManager:139 < *:89 < Context:298 < Main:137 < ...)
+2020-12-24 14:51:12  INFO: HikariPool-1 - Starting...
+2020-12-24 14:51:14  INFO: HikariPool-1 - Start completed.
+2020-12-24 14:51:15  INFO: Clearing database change log checksums
+2020-12-24 14:51:16  INFO: Successfully acquired change log lock
+2020-12-24 14:51:16  INFO: Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2020-12-24 14:51:16  INFO: Successfully released change log lock
+2020-12-24 14:51:16  INFO: Successfully acquired change log lock
+2020-12-24 14:51:16  INFO: Can not use class liquibase.parser.core.json.JsonChangeLogParser as a Liquibase service because org.yaml.snakeyaml.constructor.BaseConstructor is not in the classpath
+2020-12-24 14:51:16  INFO: Can not use class liquibase.parser.core.yaml.YamlChangeLogParser as a Liquibase service because org.yaml.snakeyaml.constructor.BaseConstructor is not in the classpath
+2020-12-24 14:51:19  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2020-12-24 14:51:21  INFO: Table tc_attributes created
+2020-12-24 14:51:21  INFO: Table tc_calendars created
+2020-12-24 14:51:21  INFO: Table tc_commands created
+2020-12-24 14:51:21  INFO: Table tc_device_attribute created
+2020-12-24 14:51:21  INFO: Table tc_device_command created
+2020-12-24 14:51:21  INFO: Table tc_device_driver created
+2020-12-24 14:51:21  INFO: Table tc_device_geofence created
+2020-12-24 14:51:21  INFO: Table tc_device_maintenance created
+2020-12-24 14:51:21  INFO: Table tc_device_notification created
+2020-12-24 14:51:21  INFO: Table tc_devices created
+2020-12-24 14:51:21  INFO: Table tc_drivers created
+2020-12-24 14:51:21  INFO: Table tc_events created
+2020-12-24 14:51:21  INFO: Table tc_geofences created
+2020-12-24 14:51:21  INFO: Table tc_group_attribute created
+2020-12-24 14:51:21  INFO: Table tc_group_command created
+2020-12-24 14:51:21  INFO: Table tc_group_driver created
+2020-12-24 14:51:21  INFO: Table tc_group_geofence created
+2020-12-24 14:51:21  INFO: Table tc_group_maintenance created
+2020-12-24 14:51:21  INFO: Table tc_group_notification created
+2020-12-24 14:51:21  INFO: Table tc_groups created
+2020-12-24 14:51:21  INFO: Table tc_maintenances created
+2020-12-24 14:51:21  INFO: Table tc_notifications created
+2020-12-24 14:51:21  INFO: Table tc_positions created
+2020-12-24 14:51:21  INFO: Table tc_servers created
+2020-12-24 14:51:21  INFO: Table tc_statistics created
+2020-12-24 14:51:21  INFO: Table tc_user_attribute created
+2020-12-24 14:51:21  INFO: Table tc_user_calendar created
+2020-12-24 14:51:21  INFO: Table tc_user_command created
+2020-12-24 14:51:21  INFO: Table tc_user_device created
+2020-12-24 14:51:21  INFO: Table tc_user_driver created
+2020-12-24 14:51:21  INFO: Table tc_user_geofence created
+2020-12-24 14:51:21  INFO: Table tc_user_group created
+2020-12-24 14:51:21  INFO: Table tc_user_maintenance created
+2020-12-24 14:51:21  INFO: Table tc_user_notification created
+2020-12-24 14:51:21  INFO: Table tc_user_user created
+2020-12-24 14:51:21  INFO: Table tc_users created
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_device_command (commandid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_device_command (deviceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_device_driver (deviceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_device_driver (driverid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_device_geofence (deviceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_device_geofence (geofenceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_device_maintenance (deviceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_device_maintenance (maintenanceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_device_notification (deviceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_device_notification (notificationid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_devices (groupid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_events (deviceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_geofences (calendarid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_group_attribute (attributeid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_group_attribute (groupid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_group_command (commandid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_group_command (groupid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_group_driver (driverid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_group_driver (groupid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_group_geofence (geofenceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_group_geofence (groupid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_group_maintenance (groupid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_group_maintenance (maintenanceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_group_notification (groupid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_group_notification (notificationid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_notifications (calendarid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_positions (deviceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_attribute (attributeid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_attribute (userid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_calendar (calendarid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_calendar (userid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_command (commandid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_command (userid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_device_attribute (attributeid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_device_attribute (deviceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_device (deviceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_device (userid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_driver (driverid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_driver (userid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_geofence (geofenceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_geofence (userid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_group (groupid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_group (userid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_maintenance (maintenanceid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_maintenance (userid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_notification (notificationid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_notification (userid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_user (userid)
+2020-12-24 14:51:21  INFO: New row inserted into tc_servers
+2020-12-24 14:51:21  INFO: New row inserted into tc_users
+2020-12-24 14:51:21  INFO: ChangeSet changelog-4.0-clean::changelog-4.0-clean::author ran successfully in 554ms
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_groups (groupid)
+2020-12-24 14:51:21  INFO: Foreign key constraint added to tc_user_user (manageduserid)
+2020-12-24 14:51:21  INFO: ChangeSet changelog-4.0-clean::changelog-4.0-clean-common::author ran successfully in 14ms
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.3::changelog-3.3::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.5::changelog-3.5::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.6::changelog-3.6::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.7::changelog-3.7::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.7::changelog-3.7-notmssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.8::changelog-3.8::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.9::changelog-3.9::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.10::changelog-3.10::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.10::changelog-3.10-notmssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.10::changelog-3.10-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.10::changelog-3.7-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.11::changelog-3.11::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.12::changelog-3.12::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.12::changelog-3.12-notmssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.12::changelog-3.12-pgsql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.14::changelog-3.14::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.15::changelog-3.15::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.16::changelog-3.16::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.17::changelog-3.3-admin::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-3.17::changelog-3.17::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-pre::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-common::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:21  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-pg::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:22  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:22  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-renaming::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2020-12-24 14:51:22  INFO: Marking ChangeSet: changelog-4.1::changelog-4.1-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : DBMS Precondition failed: expected mssql, got h2
+
+2020-12-24 14:51:22  INFO: Index user_device_user_id created
+2020-12-24 14:51:22  INFO: Index position_deviceid_fixtime created
+2020-12-24 14:51:22  INFO: ChangeSet changelog-4.7::changelog-4.7::author ran successfully in 396ms
+2020-12-24 14:51:22  INFO: Index event_deviceid_servertime created
+2020-12-24 14:51:22  INFO: ChangeSet changelog-4.9::changelog-4.9::author ran successfully in 2ms
+2020-12-24 14:51:22  INFO: Columns protocols(VARCHAR(4096)) added to tc_statistics
+2020-12-24 14:51:22  INFO: ChangeSet changelog-4.10::changelog-4.10::author ran successfully in 28ms
+2020-12-24 14:51:22  INFO: Successfully released change log lock
+2020-12-24 14:51:22  INFO: Logging initialized @11858ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-12-24 14:51:25  INFO: Operating system name: Linux version: 5.4.0-42-generic architecture: amd64
+2020-12-24 14:51:25  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: Ubuntu version: 11.0.9.1+1-Ubuntu-0ubuntu1.20.04
+2020-12-24 14:51:25  INFO: Memory limit heap: 512mb non-heap: 0mb
+2020-12-24 14:51:25  INFO: Character encoding: UTF-8 charset: UTF-8
+2020-12-24 14:51:25  INFO: Version: 4.11-SNAPSHOT
+2020-12-24 14:51:25  INFO: Starting server...
+2020-12-24 14:51:26  INFO: jetty-9.4.33.v20201020; built: 2020-10-20T23:39:24.803Z; git: 1be68755656cef678b79a2ef1c2ebbca99e25420; jvm 11.0.9.1+1-Ubuntu-0ubuntu1.20.04
+2020-12-24 14:51:26  INFO: Started o.t.w.@342a1f84{/,null,AVAILABLE}
+2020-12-24 14:51:26  INFO: DefaultSessionIdManager workerName=node0
+2020-12-24 14:51:26  INFO: No SessionScavenger set, using defaults
+2020-12-24 14:51:26  INFO: node0 Scavenging every 600000ms
+2020-12-24 14:51:29  INFO: Started o.e.j.s.ServletContextHandler@59ec5a0b{/,null,AVAILABLE}
+2020-12-24 14:51:29  INFO: Started ServerConnector@4eaa375c{HTTP/1.1, (http/1.1)}{0.0.0.0:8082}
+2020-12-24 14:51:29  INFO: Started @18896ms
+2020-12-24 14:53:24  INFO: user: 1, action: create, object: maintenance, id: 1
+2020-12-24 14:53:24  INFO: user: 1, action: link, owner: user, id: 1, property: maintenance, id: 1
+2020-12-24 14:55:04  INFO: user: 1, action: create, object: notification, id: 1
+2020-12-24 14:55:04  INFO: user: 1, action: link, owner: user, id: 1, property: notification, id: 1
+2020-12-24 14:56:27  INFO: user: 1, action: create, object: device, id: 1
+2020-12-24 14:56:27  INFO: user: 1, action: link, owner: user, id: 1, property: device, id: 1
