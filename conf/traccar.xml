@@ -37,7 +37,8 @@
 <entry key='geocoder.url'>https://eu1.locationiq.org/v1/reverse.php</entry>
 <entry key='geocoder.key'>pk.e281777a1b065f28d6b4fcddd6f795b2</entry>
 <entry key='geocoder.reuseDistance'>10</entry>
-
+<entry key='teltonika.timeout'>120</entry>
+<entry key='gt06.timeout'>120</entry>
 
 
 </properties>
