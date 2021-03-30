@@ -26,6 +26,7 @@
 <entry key='database.user'>sa</entry>
 <entry key='database.password'></entry>
 <entry key='geocoder.ignorePositions'>true</entry>
+<entry key='geocoder.reuseDistance'>10</entry>
 -->
 
 <entry key='report.trip.minimalTripDuration'>165</entry>
@@ -36,7 +37,6 @@
 <entry key='geocoder.type'>nominatim</entry>
 <entry key='geocoder.url'>https://eu1.locationiq.org/v1/reverse.php</entry>
 <entry key='geocoder.key'>pk.e281777a1b065f28d6b4fcddd6f795b2</entry>
-<entry key='geocoder.reuseDistance'>10</entry>
 <entry key='teltonika.timeout'>120</entry>
 <entry key='gt06.timeout'>120</entry>
 
