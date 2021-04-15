@@ -39,7 +39,8 @@
 <entry key='report.trip.useIgnition'>true</entry>
 <entry key='geocoder.enable'>true</entry>
 <entry key='geocoder.type'>nominatim</entry>
-<entry key='geocoder.url'>https://nominatim.openstreetmap.org/reverse</entry>
+<entry key='geocoder.url'>https://eu1.locationiq.org/v1/reverse.php</entry>
+<entry key='geocoder.key'>pk.e281777a1b065f28d6b4fcddd6f795b2</entry>
 <entry key='teltonika.timeout'>120</entry>
 <entry key='gt06.timeout'>120</entry>
 
