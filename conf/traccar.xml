@@ -40,7 +40,8 @@
 <entry key='geocoder.enable'>true</entry>
 <entry key='geocoder.type'>nominatim</entry>
 <entry key='geocoder.url'>https://eu1.locationiq.org/v1/reverse.php</entry>
-<entry key='geocoder.key'>pk.e281777a1b065f28d6b4fcddd6f795b2</entry>
+<entry key='geocoder.key'>pk.da76a2e96510e978e44a9a0e3003f0ab</entry>
+<entry key='geocoder.ignorePositions'>true</entry>
 <entry key='teltonika.timeout'>120</entry>
 <entry key='gt06.timeout'>120</entry>
 
