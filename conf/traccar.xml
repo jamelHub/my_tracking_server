@@ -42,6 +42,7 @@
 <entry key='geocoder.url'>https://eu1.locationiq.org/v1/reverse.php</entry>
 <entry key='geocoder.key'>pk.da76a2e96510e978e44a9a0e3003f0ab</entry>
 <entry key='geocoder.ignorePositions'>true</entry>
+<entry key='geocoder.onRequest'>true</entry>
 <entry key='teltonika.timeout'>120</entry>
 <entry key='gt06.timeout'>120</entry>
 
