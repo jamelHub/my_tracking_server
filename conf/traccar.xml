@@ -39,7 +39,7 @@
 <entry key='report.trip.useIgnition'>true</entry>
 <entry key='geocoder.enable'>true</entry>
 <entry key='geocoder.type'>nominatim</entry>
-<entry key='geocoder.url'>http://tracking.emkatech.tn/reverse</entry>
+<entry key='geocoder.url'>http://tracking.emkatech.tn:8080/reverse</entry>
 <entry key='geocoder.ignorePositions'>true</entry>
 <entry key='geocoder.onRequest'>true</entry>
 <entry key='geocoder.reuseDistance'>10</entry>
