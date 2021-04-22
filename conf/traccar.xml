@@ -37,7 +37,9 @@
 <entry key='report.trip.minimalTripDistance'>280</entry>
 <entry key='processing.copyAttributes.enable'>true</entry>
 <entry key='report.trip.useIgnition'>true</entry>
-
+<entry key='geocoder.enable'>true</entry>
+<entry key='geocoder.type'>nominatim</entry>
+<entry key='geocoder.url'>http://tracking.emkatech.tn:8080/reverse</entry>
 <entry key='geocoder.onRequest'>true</entry>
 <entry key='geocoder.reuseDistance'>10</entry>
 <entry key='teltonika.timeout'>120</entry>
